@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ลงนามถวายพระพร</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>ลงนามถวายพระพร</h1>
+    <form onsubmit="submitBlessing(event)">
+      <input type="text" name="name" placeholder="ชื่อ - นามสกุล" required>
+      <textarea name="message" rows="4" placeholder="ข้อความถวายพระพร" required></textarea>
+      <button type="submit">ลงนาม</button>
+    </form>
+
+    <!-- ปุ่มกลับหน้าหลักและดูรายชื่อ -->
+    <div class="button-group">
+      <a href="ถวายพระพรชัยมงคล.html" class="button">กลับหน้าหลัก</a>
+      <a href="รายชื่อผู้ลงนาม.html" class="button">ดูรายชื่อผู้ลงนาม</a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
